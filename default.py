@@ -7,16 +7,16 @@ num = ABC()
 num.fun1()
 num.fun1(2, 20, 3)
 
-# variable length argument
+# variable length arguments
 
-class abc:
+class add:
     def AddionofNNumbers(self, *no):
         total = 0
         for num in no:
             total = total + num
         print(total)    
 
-abc1 = abc()
+abc1 = add()
 
 abc1.AddionofNNumbers()
 abc1.AddionofNNumbers(10)
